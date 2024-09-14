@@ -48,6 +48,13 @@ svg {
   height: 15px;
 }
 
+.icon {
+  svg {
+    width: unset;
+    height: unset;
+  }
+}
+
 img.svg {
   width: 15px;
   height: 15px;
@@ -1514,6 +1521,11 @@ img.svg {
       }
     }
   }
+}
+
+.ant-modal-body ul ul {
+  margin-left: 20px; /* Adjust this for nested lists */
+  list-style-type: circle; /* Optional: Change bullet style for nested lists */
 }
 
 /*---------------------------------------------------*/

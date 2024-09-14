@@ -1,7 +1,7 @@
 import About from "./contents/About";
 import Contact from "./contents/Contact";
 import HomeCV from "./contents/Home.cv";
-import Services from "./contents/Services";
+import Projects from "./contents/Projects";
 import Skills from "./contents/Skills";
 
 const RightPart = () => {
@@ -11,7 +11,7 @@ const RightPart = () => {
         <HomeCV />
         <About />
         <Skills />
-        <Services />
+        <Projects />
 
         <Contact />
       </div>

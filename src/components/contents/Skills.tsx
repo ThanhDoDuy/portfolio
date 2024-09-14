@@ -19,34 +19,46 @@ const Skills = () => {
               <div className="progress_bar_wrap_total">
                 <div className="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
                   <div className="arlo_tm_progress">
-                      <span className="label">HTML/CSS/Javascript
-                        <ProgressBar
-                          completed={90}
-                          bgColor={'#333'}
-                          height="8px"
-                          isLabelVisible={false}
-                        />
-                      </span>
+                    <span>
+                      <span className="label">HTML/CSS/Javascript</span>
+                      <span className="number">90%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={90}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
                   <div className="arlo_tm_progress">
-                      <span className="label">React.JS(Typescript)/Redux
-                        <ProgressBar
-                          completed={95}
-                          bgColor={'#333'}
-                          height="8px"
-                          isLabelVisible={false}
-                        />
-                      </span>
+                    <span>
+                      <span className="label">React.JS(Typescript)/Redux</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
                   <div className="arlo_tm_progress">
-                      <span className="label">Design UI/UX
-                        <ProgressBar
-                          completed={95}
-                          bgColor={'#333'}
-                          height="8px"
-                          isLabelVisible={false}
-                        />
-                      </span>
+                    <span>
+                      <span className="label">Design UI/UX</span>
+                      <span className="number">80%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={80}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
                 </div>
               </div>
@@ -57,28 +69,176 @@ const Skills = () => {
           <div className="inner_wrap">
             <div className="leftbox">
               <div className="arlo_tm_mini_title_holder">
-                <h4>Some About my Abilities</h4>
+                <h4>Backend Skills</h4>
+                <ul>
+                  <li>Frameworks/Libraries: Proficient in Nodejs, ExpressJS, NestJs to build scalable server-side applications and RESTful APIs, gRPC.</li>
+                  <li>Databases: Experienced with SQL (MySQL, PostgreSQL) and NoSQL (MongoDB, Redis) for data management.</li>
+                  <li>Authentication/Authorization: Implemented secure authentication using JWT, OAuth for user verification and RBAC.</li>
+                  <li>Communication Technologies: Developed RESTful APIs and used gRPC, MQTT, RabbitMQ, and Kafka for reliable data exchange.</li>
+                  <li>Containerization & Orchestration: Proficient in using Docker for application containerization and orchestration.</li>
+                  <li>Cloud Services: Knowledgeable in utilizing AWS for cloud infrastructure and deployment.</li>
+                  <li>Version Control & Collaboration: Experienced in Git, Bitbucket, and JIRA for code versioning and project management.</li>
+                  <li>Testing Frameworks: Implemented unit and integration testing using Jest and Jasmine to ensure code quality.</li>
+                  <li>Architectural Patterns: Designed and maintained both Microservices and Monolithic architectures for various projects.</li>
+                </ul>
               </div>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum has been the industry. Lorem Ipsum has been the industry's standard dummy text since. Lorem Ipsum is simply.</p>
             </div>
             <div className="rightbox">
               <div className="progress_bar_wrap_total">
                 <div className="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
-                  <div className="arlo_tm_progress" data-value="95" data-color="#000">
-                    <span><span className="label">Wordpress - <span className="experience">5 years of experience</span></span><span className="number">95%</span></span>
-                    <div className="arlo_tm_bar_bg"><div className="arlo_tm_bar_wrap"><div className="arlo_tm_bar"></div></div></div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Nodejs</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
-                  <div className="arlo_tm_progress" data-value="85" data-color="#000">
-                    <span><span className="label">Css - <span className="experience">3 years of experience</span></span><span className="number">85%</span></span>
-                    <div className="arlo_tm_bar_bg"><div className="arlo_tm_bar_wrap"><div className="arlo_tm_bar"></div></div></div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">ExpressJs/ Nestjs</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
-                  <div className="arlo_tm_progress" data-value="75" data-color="#000">
-                    <span><span className="label">HTML - <span className="experience">4 years of experience</span></span><span className="number">75%</span></span>
-                    <div className="arlo_tm_bar_bg"><div className="arlo_tm_bar_wrap"><div className="arlo_tm_bar"></div></div></div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">MongoDB/ Redis</span>
+                      <span className="number">90%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={90}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
-                  <div className="arlo_tm_progress" data-value="90" data-color="#000">
-                    <span><span className="label">After Effect - <span className="experience">6 years of experience</span></span><span className="number">90%</span></span>
-                    <div className="arlo_tm_bar_bg"><div className="arlo_tm_bar_wrap"><div className="arlo_tm_bar"></div></div></div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">MySQL/ Postgres</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Rest APIs/ gRPC</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Mqtt/ RabbitMQ/ Kafka</span>
+                      <span className="number">90%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={90}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Docker</span>
+                      <span className="number">90%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={90}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Git</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Microservices</span>
+                      <span className="number">90%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={90}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">Jest/ Jasmine</span>
+                      <span className="number">95%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={95}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
+                  </div>
+                  <div className="arlo_tm_progress">
+                    <span>
+                      <span className="label">AWS</span>
+                      <span className="number">80%</span>
+                    </span>
+                    <span className="arlo_tm_bar_bg">
+                      <ProgressBar
+                        completed={80}
+                        bgColor={'#333'}
+                        height="8px"
+                        isLabelVisible={false}
+                      />
+                    </span>
                   </div>
                 </div>
               </div>
