@@ -1,11 +1,9 @@
+import Portfolio from "@/screens/Portfoio"
+
 function App() {
 
   return (
-    <>
-      <div>
-       AAAA
-      </div>
-    </>
+    <Portfolio />
   )
 }
 
