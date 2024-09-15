@@ -186,7 +186,7 @@ platform efficiency and security.`,
           <div className="container">
             <div className="arlo_tm_title_holder">
               <h3>Amazing Projects</h3>
-              <span>Meet our amazing Projects</span>
+              <span>Meet my amazing Projects</span>
             </div>
             <div className="list_wrap">
               <ul>

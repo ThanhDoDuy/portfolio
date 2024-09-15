@@ -1,10 +1,24 @@
 import AboutLogo from '@/assets/img/about/1.jpg';
 import MyCV from '@/assets/files/Do_Duy_Thanh_Backend_Resume.pdf';
 import { TypeAnimation } from 'react-type-animation';
+import { useEffect, useRef } from 'react';
+import Parallax from 'parallax-js';
 
 const About = () => {
+  const sceneEl = useRef(null);
+
+  useEffect(() => {
+    if (sceneEl && sceneEl.current){
+      const parallaxInstance = new Parallax(sceneEl.current, {
+        relativeInput: true,
+        hoverOnly: true
+      })
+      parallaxInstance.enable();
+      return () => parallaxInstance.disable();
+    }
+  }, [])
   return (
-    <div className="arlo_tm_section relative" id="about">
+    <div className="arlo_tm_section relative" id="about" style={{ paddingTop: 100 }}>
       <div className="arlo_tm_about_wrapper_all">
         <div className="container">
           <div className="arlo_tm_title_holder">
@@ -14,9 +28,9 @@ const About = () => {
           <div className="arlo_tm_about_wrap">
             <div className="author_wrap">
               <div className="leftbox">
-                <div className="about_image_wrap parallax" data-relative-input="true">
+                <div ref={sceneEl} className="about_image_wrap parallax" data-relative-input="true">
                   <div className="image layer" data-depth="0.1">
-                    <img src="img/about/550x640.jpg" alt="550x640" />
+                    <img src={AboutLogo} alt="550x640" />
                     <div className="inner" data-img-url={AboutLogo}></div>
                   </div>
                   <div className="border layer" data-depth="0.2">
